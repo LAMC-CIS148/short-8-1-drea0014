@@ -1,11 +1,13 @@
-/* Universal styles */
+/* Reset */
 * {
     margin: 0;
     padding: 0;
 }
+
 html {
     background-color: white;
 }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
@@ -15,142 +17,120 @@ body {
     border: 3px solid #931420;
     background-color: #fffded;
 }
+
 a:focus, a:hover {
     font-style: italic;
 }
 
-/* Clearfix for floated elements */
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* Header styles */
+/* Header */
 header {
     padding: 1.5em 0 2em 0;
     border-bottom: 3px solid #931420;
-    background-image: linear-gradient(
-        30deg, #f6bb73 0%, #fffded 30%, white 50%, #fffded 80%, #f6bb73 100%);
+    background-image: linear-gradient(30deg, #f6bb73 0%, #fffded 30%, white 50%, #fffded 80%, #f6bb73 100%);
 }
+
 header h2 {
     font-size: 175%;
     color: #800000;
 }
+
 header h3 {
     font-size: 130%;
     font-style: italic;
 }
+
 header img {
     float: left;
-    padding: 0 3.53%; /* Converted to percentage */
+    padding: 0 30px;
 }
+
 .shadow {
     text-shadow: 2px 2px 2px #800000;
 }
 
-/* Main content styles */
+/* Main */
 main {
     clear: left;
 }
 
-/* Section styles */
+/* Section */
 section {
-    width: 67.65%; /* Converted to percentage */
+    width: 67%;
     float: right;
-    padding: 0 2.35% 2.35% 2.35%; /* Converted padding */
+    padding: 0 2%;
 }
+
 section h1 {
     color: #800000;
     font-size: 150%;
-    padding-top: .5em;
+    padding-top: 0.5em;
     margin: 0;
 }
+
 section p {
-    padding-bottom: .5em;
+    padding-bottom: 0.5em;
 }
 
-/* Article styles */
 article {
-    padding: .5em 0;
+    padding: 0.5em 0;
 }
+
 article h2 {
     font-size: 115%;
-    padding: 0 0 .25em 0;
+    padding: 0 0 0.25em 0;
 }
+
 article img {
+    width: 50%;
     float: right;
     margin: 0.5em 0 1em 1em;
     border: 1px solid black;
-    width: 50%; /* Scalable image */
 }
 
-/* Aside styles */
+/* Aside */
 aside {
-    width: 25.3%; /* Converted to percentage */
-    float: right;
-    padding: 0 0 2.35% 2.35%; /* Converted padding */
+    width: 25%;
+    float: left;
+    padding: 0 2%;
 }
+
 aside h2 {
     color: #800000;
     font-size: 130%;
-    padding: .6em 0 .25em 0;
-}
-aside h3 {
-    font-size: 100%;
-    padding-bottom: .25em;
-}
-aside img {
-    padding-bottom: 1em;
+    padding: 0.6em 0 0.25em 0;
 }
 
-/* Navigation list styles */
-#nav_list ul { 
-    list-style: none;
-    margin-left: 0;
-    margin-bottom: 1.5em; 
+/* Navigation */
+#nav_list ul {
+    list-style-type: none;
 }
-#nav_list ul li { 
-    width: 23.53%; /* Converted to percentage */
-    margin-bottom: .5em;
-    border: 2px double black;
-    border-radius: 10px;
-    box-shadow: 3px 3px 0 0 #800000;
-    background-image: url("../images/right.jpg");
-    background-repeat: no-repeat;
-    background-position: 95% center;
-}
-#nav_list ul li a {
+
+#nav_list li a {
     display: block;
-    padding: .5em 0 .5em .5em;
-    text-decoration: none;
-    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #fffded;
     color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #800000;
 }
-#nav_list ul li a.current {
+
+/* Hover effects */
+#nav_list li a:hover, #nav_list li a:focus {
+    background-color: #cccccc;
     color: #800000;
 }
 
-/* Footer styles */
+/* Footer */
 footer {
     background-color: #931420;
     clear: both;
 }
+
 footer p {
     text-align: center;
     color: white;
     padding: 1em 0;
 }
-
-/* Media queries for responsiveness */
-@media (max-width: 768px) {
-    section, aside {
-        width: 100%; /* Full width for smaller screens */
-        float: none;
-        padding: 0;
-    }
-    article img {
-        width: 100%; /* Full width for smaller screens */
-    }
-}
-
