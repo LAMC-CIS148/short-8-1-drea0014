@@ -71,17 +71,17 @@ article h2 {
     padding: 0 0 .25em 0;
 }
 article img {
+    width: 50%;
     float: right;
     margin: 0.5em 0 1em 1em;
     border: 1px solid black;
-    width: 50%; /* Scalable image */
 }
 
 /* Aside styles */
 aside {
-    width: 25.3%; /* Converted to percentage */
-    float: right;
-    padding: 0 0 2.35% 2.35%; /* Converted padding */
+   width: 25%;
+    float: left;
+    padding: 0 2%;
 }
 aside h2 {
     color: #800000;
