@@ -35,7 +35,7 @@ header h3 {
 }
 header img {
     float: left;
-    padding: 0 3.53%; /* Converted to percentage */
+    padding: 0 30px; 
 }
 .shadow {
     text-shadow: 2px 2px 2px #800000;
@@ -48,9 +48,9 @@ main {
 
 /* Section styles */
 section {
-    width: 67.65%; /* Converted to percentage */
+    width: 67%;
     float: right;
-    padding: 0 2.35% 2.35% 2.35%; /* Converted padding */
+    padding: 0 2%;
 }
 section h1 {
     color: #800000;
