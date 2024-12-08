@@ -89,41 +89,37 @@ aside h2 {
     padding: .6em 0 .25em 0;
 }
 
-/* Navigation list styles */
-#nav_list ul { 
-    list-style: none;
-    margin-left: 0;
-    margin-bottom: 1.5em; 
+/* Navigation */
+#nav_list ul {
+    list-style-type: none;
 }
-#nav_list ul li { 
-    width: 23.53%; /* Converted to percentage */
-    margin-bottom: .5em;
-    border: 2px double black;
-    border-radius: 10px;
-    box-shadow: 3px 3px 0 0 #800000;
-    background-image: url("../images/right.jpg");
-    background-repeat: no-repeat;
-    background-position: 95% center;
-}
-#nav_list ul li a {
+
+#nav_list li a {
     display: block;
-    padding: .5em 0 .5em .5em;
-    text-decoration: none;
-    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #fffded;
     color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #800000;
 }
-#nav_list ul li a.current {
+
+/* Hover effects */
+#nav_list li a:hover, #nav_list li a:focus {
+    background-color: #cccccc;
     color: #800000;
 }
 
-/* Footer styles */
+/* Footer */
 footer {
     background-color: #931420;
     clear: both;
 }
+
 footer p {
     text-align: center;
     color: white;
     padding: 1em 0;
 }
-
