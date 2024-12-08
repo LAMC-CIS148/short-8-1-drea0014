@@ -94,15 +94,18 @@ aside h2 {
     margin-left: 0;
     margin-bottom: 1.5em; 
 }
-#nav_list ul li { 
-    width: 23.53%; /* Converted to percentage */
-    margin-bottom: .5em;
-    border: 2px double black;
-    border-radius: 10px;
-    box-shadow: 3px 3px 0 0 #800000;
-    background-image: url("../images/right.jpg");
-    background-repeat: no-repeat;
-    background-position: 95% center;
+
+#nav_list li a {
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #fffded;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #800000;
+}
 }
 #nav_list ul li a {
     display: block;
