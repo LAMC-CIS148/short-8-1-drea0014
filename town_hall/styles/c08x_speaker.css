@@ -114,8 +114,7 @@ aside h2 {
     font-weight: bold;
     color: black;
 }
-#nav_list li a:hover, #nav_list li a:focus {
-    background-color: #cccccc;
+#nav_list ul li a.current {
     color: #800000;
 }
 
