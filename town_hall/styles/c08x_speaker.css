@@ -47,12 +47,13 @@ main {
 	clear: left;
 }
 
-/* the styles for the section */
+/* Section */
 section {
-	width: 65%; /* Converted to percentage */
-	float: right;
-	padding: 0 3% 3% 3%; /* Padding converted to percentages */
+    width: 67%;
+    float: right;
+    padding: 0 2%;
 }
+
 section h1 {
 	color: #800000;
 	font-size: 150%;
