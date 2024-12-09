@@ -107,7 +107,7 @@ aside img {
 #nav_list ul li { 
 	width: 85%; /* Converted to percentage */
 	margin-bottom: 3%; /* Converted to percentage */
-	border: 2px double black;
+	border: 2px solid black;
 	border-radius: 10px;
 	box-shadow: 3px 3px 0 0 #800000;
 	background-image: url("../images/right.jpg");
