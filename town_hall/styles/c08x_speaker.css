@@ -81,9 +81,9 @@ article img {
 
 /* the styles for the aside */
 aside {
-	width: 30%; /* Converted to percentage */
-	float: right;
-	padding: 0 0 3% 3%; /* Padding converted to percentages */
+	width: 25%; /* Converted to percentage */
+	float: left;
+	 padding: 0 2%;
 }
 aside h2 {
 	color: #800000;
